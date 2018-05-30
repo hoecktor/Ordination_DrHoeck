@@ -30,6 +30,8 @@ p {
   font-weight: 300;
 }
 
+/* INDEX / START */
+
 /* NAVBAR SECTION */
 nav {
   margin-top: 1rem;
@@ -142,6 +144,8 @@ nav h3 {
     justify-content: flex-start;
   }
 }
+
+
 
 /* HEADER SECTION */
 
@@ -1014,6 +1018,13 @@ footer a {
   }
 }
 
+@media screen and (max-width: 960px) and (orientation: portrait) {
+
+  .impressum .container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 
 /* DOWNLOADS */
 
