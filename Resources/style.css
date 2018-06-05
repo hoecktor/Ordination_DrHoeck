@@ -30,12 +30,6 @@ p {
   font-weight: 300;
 }
 
-@media screen and (min-aspect-ratio: 1/2) {
-
-  html {
-    font-size: 30px;
-  }
-}
 
 /* INDEX / START */
 
@@ -1025,13 +1019,7 @@ footer a {
   }
 }
 
-@media screen and (min-aspect-ratio: 1/2) {
 
-  .impressum .container {
-    flex-direction: column;
-    width: 100%;
-  }
-}
 
 
 /* DOWNLOADS */
