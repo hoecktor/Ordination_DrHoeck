@@ -30,6 +30,13 @@ p {
   font-weight: 300;
 }
 
+@media screen and (min-aspect-ratio: 1/2) {
+
+  html {
+    font-size: 30px;
+  }
+}
+
 /* INDEX / START */
 
 /* NAVBAR SECTION */
