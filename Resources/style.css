@@ -1019,7 +1019,13 @@ footer a {
   }
 }
 
+@media screen and (orientation: portrait) {
 
+  .impressum .container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 
 
 /* DOWNLOADS */
