@@ -30,6 +30,11 @@ p {
   font-weight: 300;
 }
 
+@media screen and (orientation: portrait) {
+  html {
+    font-size: 30px;
+  }
+}
 
 /* INDEX / START */
 
