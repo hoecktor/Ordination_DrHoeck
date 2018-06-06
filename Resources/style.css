@@ -122,7 +122,7 @@ nav h3 {
   }
 }
 
-@media screen and (max-width: 720px), screen and (orientation: landscape){
+@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
   nav img {
     margin-left: 0.5rem;
   }
@@ -205,7 +205,7 @@ nav h3 {
   }
 }
 
-@media screen and (max-width: 720px), screen and (orientation: portrait) {
+@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
   .container {
     width: 100%;
   }
@@ -303,7 +303,7 @@ span {
   }
 }
 
-@media screen and (max-width: 720px), screen and (orientation: portrait) {
+@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px){
   .info .container {
     display: flex;
     flex-direction: column;
@@ -365,7 +365,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 720px), screen and (orientation: portrait) {
+@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
   footer .container {
     flex-direction: column;
   }
@@ -459,7 +459,7 @@ footer a {
 
 }
 
-@media screen and (max-width: 720px), screen and (orientation: portrait) {
+@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
   .dr-hoeck .container {
     flex-direction: column;
     align-items: left;
@@ -631,7 +631,7 @@ footer a {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 960px), screen and (orientation: portrait) {
+@media screen and (max-width: 960px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
   .praxis {
     height: auto;
   }
@@ -726,7 +726,7 @@ footer a {
   font-weight: bolder;
 }
 
-@media screen and (max-width: 720px), screen and (orientation: portrait) {
+@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
 
   .anfahrt .container {
     flex-direction: column;
@@ -833,7 +833,7 @@ footer a {
 
 }
 
-@media screen and (max-width: 720px), screen and (orientation: portrait) {
+@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
 
   .leistungen .container {
     width: 600px;
@@ -895,7 +895,7 @@ footer a {
 
 }
 
-@media screen and (max-width: 720px), screen and (orientation: portrait) {
+@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
 
     .leistung-detail .container {
       flex-direction: column;
@@ -1023,7 +1023,6 @@ footer a {
     flex-direction: column;
     width: 100%;
     margin-left: 2rem;
-    background-color: red;
   }
 }
 
