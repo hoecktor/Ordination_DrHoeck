@@ -30,7 +30,7 @@ p {
   font-weight: 300;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and screen and (min-resolution: 250dpi) and (max-width: 1450px) {
   html {
     font-size: 30px;
   }
@@ -503,7 +503,7 @@ footer a {
 }
 
 .empfang .pic{
-  background-image: url(empfang.jpg);
+  background-image: url(empfang.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -511,7 +511,7 @@ footer a {
 }
 
 .wartezimmer .pic {
-  background-image: url(wartezimmer.jpg);
+  background-image: url(wartezimmer.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -519,7 +519,7 @@ footer a {
 }
 
 .anprobe .pic{
-  background-image: url(anprobe.jpg);
+  background-image: url(anprobe.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -527,7 +527,7 @@ footer a {
 }
 
 .u1 .pic {
-  background-image: url(u1.jpg);
+  background-image: url(u1.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -535,7 +535,7 @@ footer a {
 }
 
 .u2 .pic {
-  background-image: url(u2.jpg);
+  background-image: url(U2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
