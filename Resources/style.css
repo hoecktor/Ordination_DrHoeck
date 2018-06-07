@@ -360,10 +360,12 @@ span {
 }
 
 @media screen and (min-resolution: 250dpi) and (max-width: 1450px) {
-  .info td {
-    font-size: 1.2rem;
+  table {
+    line-height: 1.25rem;
+    width: 90%;
+    font-size: 0.9rem;
+    font-weight: 300;
   }
-
 }
 
 
