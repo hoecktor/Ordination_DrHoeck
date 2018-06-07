@@ -30,7 +30,7 @@ p {
   font-weight: 300;
 }
 
-@media screen and screen and (min-resolution: 250dpi) and (max-width: 1450px) {
+@media screen and (min-resolution: 250dpi) and (max-width: 1450px) {
   html {
     font-size: 30px;
   }
