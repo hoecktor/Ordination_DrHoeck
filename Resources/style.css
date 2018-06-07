@@ -153,7 +153,7 @@ nav h3 {
 
 @media screen and (min-resolution: 250dpi) and (max-width: 1450px) {
   nav h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: inline-block;
     align-self: center;
     margin-left: 10%;
@@ -251,6 +251,30 @@ nav h3 {
 
 }
 
+@media screen and (min-resolution: 250dpi) and (max-width: 1450px) {
+  .header h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    background-color: rgba(244,118,5,1);
+    color: white;
+    position: relative;
+    margin: 17rem 1.5rem 0rem 18rem;
+    padding: 1.5rem 0.7rem 1.5rem 0.7rem;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    line-height: 1rem;
+    width: 530px;
+    }
+
+    #Unteritel {
+      font-size: 1rem;
+      border-radius: 0;
+    }
+
+}
+
 /* INFO SECTION */
 
 .info {
@@ -284,6 +308,10 @@ span {
   font-size: 0.9rem;
   font-weight: 300;
   line-height: 1.25rem;
+}
+
+.info td {
+  font-size: 0.9rem;
 }
 
 .kassen p {
@@ -336,6 +364,14 @@ span {
 
 
 }
+
+@media screen and (min-resolution: 250dpi) and (max-width: 1450px) {
+  .info td {
+    font-size: 0.9rem;
+  }
+
+}
+
 
 /* FOOTER */
 
@@ -394,7 +430,7 @@ footer a {
   font-size: 2.5rem;
   font-weight: 600;
   margin-right: 2.5rem;
-  padding: 5px;
+  padding: 10px;
   border-bottom: solid rgb(170, 170, 170) 1px;
   color: rgb(170, 170, 170);
   text-align: left;
