@@ -365,10 +365,12 @@ span {
     width: 90%;
     height: 7rem;
     font-weight: 300;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .info td {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .wd {
@@ -377,11 +379,12 @@ span {
   }
 
   .vm {
-    width: 25%;
+    width: 30%;
   }
 
   .nm {
-    width: 25%;
+    width: 30%;
+    margin-left: 1.5rem;
   }
 
 }
