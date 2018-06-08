@@ -369,6 +369,13 @@ span {
     justify-content: flex-start;
   }
 
+
+  .zeiten,
+  .adresse {
+    border-right: white solid 1px;
+    width: 90%;
+  }
+
   .info td {
     font-size: 1.5rem;
   }
@@ -380,13 +387,16 @@ span {
 
   .vm {
     width: 30%;
-    margin-left: -10%
+    margin-left: -20%;
+    margin-right: 5%;
   }
 
   .nm {
     width: 30%;
     margin-left: 1.5rem;
   }
+
+
 
 }
 
