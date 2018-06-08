@@ -363,7 +363,7 @@ span {
   table {
     line-height: 1.25rem;
     width: 90%;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 300;
   }
 
@@ -373,11 +373,11 @@ span {
   }
 
   .vm {
-    width: 30%;
+    width: 25%;
   }
 
   .nm {
-    width: 30%;
+    width: 25%;
   }
 
 }
