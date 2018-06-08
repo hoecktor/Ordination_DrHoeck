@@ -366,6 +366,20 @@ span {
     font-size: 0.9rem;
     font-weight: 300;
   }
+
+  .wd {
+    font-weight: bold;
+    width: 2rem;
+  }
+
+  .vm {
+    width: 30%;
+  }
+
+  .nm {
+    width: 30%;
+  }
+
 }
 
 
