@@ -923,7 +923,8 @@ footer a {
 @media screen and (min-resolution: 250dpi) and (max-width: 1450px) {
 
   .leistungen .container {
-    width: 600px;
+    width: 90%;
+    flex-direction: column;
   }
 
   .box {
