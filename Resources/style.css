@@ -992,7 +992,7 @@ footer a {
 
 }
 
-@media screen and (max-width: 720px), screen and (min-resolution: 250dpi) and (max-width: 1450px) {
+@media screen and (max-width: 720px) {
 
     .leistung-detail .container {
       flex-direction: column;
@@ -1009,6 +1009,22 @@ footer a {
 
   }
 
+  @media screen and (min-resolution: 250dpi) and (max-width: 1450px) {
+
+      .leistung-detail .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .leistung-detail .left {
+        display: none;
+      }
+
+      .leistung-detail .right {
+        width: 90%;
+      }
+
+    }
 
 
 
