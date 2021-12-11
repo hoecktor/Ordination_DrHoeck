@@ -324,7 +324,7 @@ span {
   margin-top: 4rem;
   margin-bottom: -4rem;
   text-align: center;
-  color: rgba(244,118,5,1);
+  color: rgb(244,118,5);
 }
 
 @media screen and (max-width: 960px) {
